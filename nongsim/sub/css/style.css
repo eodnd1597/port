@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* 레이아웃 */
+#header {
+  display: fixed;
+  width: 100%;
+}
+
+/* 헤더 */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header h1 {
+  width: 140px;
+  margin: 18px 0 0 20px;
+}
+
+.header h1 svg {
+  fill: #000;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.header .nav li {
+  display: inline;
+}
+
+.header .nav li a {
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  padding: 26px 20px;
+  display: inline-block;
+}
+
+.header .nav li.live a {
+  border: 1px solid  #000;
+  border-radius: 20px;
+  padding: 4px 20px 6px 20px;
+}
+
+.header .side-nav {
+  margin-right: 40px;
+}
+
+.header .side-nav li {
+  display: inline;
+}
+
+.header .side-nav li a {
+  width: 25px;
+  display: inline-block;
+  padding: 28px 10px 20px 20px;
+}
+
+/* 배너 */
+#banner .banner {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background: url(../img/hotel.jpg) no-repeat center center;
+}
+
+#banner .banner .sbanner {
+  width: 100%;
+}
+
+#banner .banner .sbanner h2 span {
+  color: #fff;
+  font-size: 64px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#banner .banner .sbanner p {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 24px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

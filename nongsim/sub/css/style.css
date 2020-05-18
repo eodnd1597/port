@@ -19,6 +19,11 @@
   margin: 0 auto;
 }
 
+#container {
+  width: 1900px;
+  margin: 0 auto;
+}
+
 /* 헤더 */
 .header {
   display: -webkit-box;
@@ -53,6 +58,7 @@
   display: inline-block;
 }
 
+<<<<<<< HEAD
 .header .nav li a span {
   position: relative;
 }
@@ -70,6 +76,8 @@
           transform: translatex(-50%);
 }
 
+=======
+>>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
 .header .nav li img {
   width: 70px;
 }
@@ -164,11 +172,91 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+#banner #header-slide {
+  top: 30px;
+  padding: 15px 60px;
+  position: relative;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#banner .header-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+#banner .header-slide .back {
+  color: #fff;
+  padding: 6px 11px;
+  border: 1px solid #fff;
+}
+
+#banner .header-slide i {
+  color: #fff;
+}
+
+#banner .header-slide .red:hover {
+  border-bottom: 2px solid #f20000;
+}
+
+#banner .header-slide div {
+  color: #fff;
+  margin-left: 1%;
+}
+
+#banner #header-slide:hover {
+  background: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#banner #header-slide:hover div {
+  color: #000;
+}
+
+#banner #header-slide:hover .back {
+  border: 1px solid #ccc;
+}
+
+#banner #header-slide:hover i {
+  color: #000;
+}
+
+#banner #header-slide:hover .dot-menu {
+  border: 1px solid #ccc;
+}
+
+#banner .dot-menu {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 26px;
+  position: absolute;
+  right: 5%;
+  top: 10px;
+  border: 1px solid #fff;
+}
+
+#banner .dot-menu i {
+  color: #fff;
+}
+
+>>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
 #banner .btn-quick a {
   display: block;
   position: absolute;
   left: 50%;
+<<<<<<< HEAD
   bottom: 250px;
+=======
+  bottom: 170px;
+>>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
   -webkit-transform: translatex(-50%);
           transform: translatex(-50%);
   z-index: 1000;
@@ -186,6 +274,7 @@
   padding-top: 20px;
 }
 
+<<<<<<< HEAD
 .line-1::before {
   content: '';
   width: 450px;
@@ -240,6 +329,8 @@
           transform: translate(-50%, -50%);
 }
 
+=======
+>>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
 /* //네비 */
 .contents {
   margin-left: 20%;
@@ -438,6 +529,7 @@
 .foot-nav .cont div {
   width: 33.3333%;
 }
+<<<<<<< HEAD
 
 /* //컨텐츠 */
 /* footer2 */
@@ -550,4 +642,6 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+=======
+>>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
 /*# sourceMappingURL=style.css.map */

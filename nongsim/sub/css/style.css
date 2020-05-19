@@ -19,11 +19,6 @@
   margin: 0 auto;
 }
 
-#container {
-  width: 1900px;
-  margin: 0 auto;
-}
-
 /* 헤더 */
 .header {
   display: -webkit-box;
@@ -58,7 +53,6 @@
   display: inline-block;
 }
 
-<<<<<<< HEAD
 .header .nav li a span {
   position: relative;
 }
@@ -76,8 +70,6 @@
           transform: translatex(-50%);
 }
 
-=======
->>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
 .header .nav li img {
   width: 70px;
 }
@@ -172,91 +164,11 @@
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
-#banner #header-slide {
-  top: 30px;
-  padding: 15px 60px;
-  position: relative;
-  font-size: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-#banner .header-slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-
-#banner .header-slide .back {
-  color: #fff;
-  padding: 6px 11px;
-  border: 1px solid #fff;
-}
-
-#banner .header-slide i {
-  color: #fff;
-}
-
-#banner .header-slide .red:hover {
-  border-bottom: 2px solid #f20000;
-}
-
-#banner .header-slide div {
-  color: #fff;
-  margin-left: 1%;
-}
-
-#banner #header-slide:hover {
-  background: #fff;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-#banner #header-slide:hover div {
-  color: #000;
-}
-
-#banner #header-slide:hover .back {
-  border: 1px solid #ccc;
-}
-
-#banner #header-slide:hover i {
-  color: #000;
-}
-
-#banner #header-slide:hover .dot-menu {
-  border: 1px solid #ccc;
-}
-
-#banner .dot-menu {
-  text-align: center;
-  width: 40px;
-  height: 40px;
-  font-size: 26px;
-  position: absolute;
-  right: 5%;
-  top: 10px;
-  border: 1px solid #fff;
-}
-
-#banner .dot-menu i {
-  color: #fff;
-}
-
->>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
 #banner .btn-quick a {
   display: block;
   position: absolute;
   left: 50%;
-<<<<<<< HEAD
-  bottom: 250px;
-=======
   bottom: 170px;
->>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
   -webkit-transform: translatex(-50%);
           transform: translatex(-50%);
   z-index: 1000;
@@ -274,7 +186,28 @@
   padding-top: 20px;
 }
 
-<<<<<<< HEAD
+#banner .btn-quick a {
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 250px;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  background: #93c11f;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+#banner .btn-quick a img {
+  width: 30px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  padding-top: 20px;
+}
+
 .line-1::before {
   content: '';
   width: 450px;
@@ -329,8 +262,6 @@
           transform: translate(-50%, -50%);
 }
 
-=======
->>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
 /* //네비 */
 .contents {
   margin-left: 20%;
@@ -529,7 +460,6 @@
 .foot-nav .cont div {
   width: 33.3333%;
 }
-<<<<<<< HEAD
 
 /* //컨텐츠 */
 /* footer2 */
@@ -642,6 +572,171 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-=======
->>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
+
+/* 율촌 재단 */
+#ybanner .ybanner {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background: url(../img/main_youlchon.png) no-repeat center center;
+}
+
+#ybanner .ybanner .y-sbanner {
+  width: 100%;
+}
+
+#ybanner .ybanner .y-sbanner h2 span {
+  color: #fff;
+  font-size: 64px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#ybanner .ybanner .y-sbanner p {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 24px;
+  text-align: center;
+}
+
+#ybanner .btn-quick a {
+  position: absolute;
+  left: 50%;
+  bottom: 27%;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  background: #93c11f;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+#ybanner .btn-quick a img {
+  width: 30px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  padding-top: 20px;
+}
+
+.line-3::before {
+  content: '';
+  width: 580px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: -80%;
+  top: 100%;
+}
+
+.line-3::after {
+  content: '';
+  width: 2px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: -80%;
+  top: 100%;
+}
+
+.line-4::before {
+  content: '';
+  width: 650px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: -20%;
+  top: 170%;
+}
+
+.line-4::after {
+  content: '';
+  width: 2px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 121%;
+  top: -105%;
+}
+
+.edu {
+  margin-bottom: 45px;
+}
+
+.edu .catergory-header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.edu .catergory-header .container .column {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.edu .catergory-header .container .column .circle {
+  padding-top: 51px;
+  position: relative;
+  font-size: 36px;
+}
+
+.edu .catergory-header .container .column .circle::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  width: 36px;
+  height: 36px;
+  background: #96c11f;
+  border-radius: 50%;
+}
+
+.edu .catergory-header .container .click {
+  padding: 10px 26px;
+  border: 1px solid #000;
+  border-radius: 999px;
+}
+
+.edu .catergory-header .container .click span {
+  font-size: 1rem;
+}
+
+.edu .flex-wrap {
+  background: url(../img/youlchon09.png) repeat-y;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.edu .flex-wrap ul {
+  text-align: center;
+  padding-top: 235px;
+}
+
+.edu .flex-wrap ul li {
+  margin-left: 40px;
+  display: inline;
+}
+
+.edu .flex-wrap ul li a {
+  min-width: 175px;
+  padding: 16px 10px 12px;
+  display: inline-block;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* //오버뷰 */
 /*# sourceMappingURL=style.css.map */

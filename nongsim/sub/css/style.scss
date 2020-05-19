@@ -1,20 +1,14 @@
 /* 레이아웃 */
 #header {
-<<<<<<< HEAD
     position: fixed;
     left: 0; top: 0;
-=======
->>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
     width: 100%;
     z-index: 1;
 }
-<<<<<<< HEAD
 #header.on {
     top:-200px;
     transition: all 0.7s ease;
 }
-=======
->>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
 #container {
     width: 1900px;
     margin: 0 auto;
@@ -138,63 +132,8 @@
                text-align: center;
            }
         }
-<<<<<<< HEAD
-=======
     }
-    #header-slide {
-        top: 30px;
-        padding: 15px 60px;
-        position: relative;
-        font-size: 16px;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-    .header-slide {
-        display: flex;
-        justify-content: start;
-        .back {
-            color: #fff;
-            padding: 6px 11px;
-            border: 1px solid #fff;
-        }
-        i {
-            color: #fff;
-        }
-        .red:hover {
-            border-bottom: 2px solid #f20000;
-        }
-        div {
-            color: #fff;
-            margin-left: 1%;
-        }
-    }
-    #header-slide:hover {
-        background: #fff;
-        transition: all 0.5s;
-        div {
-            color: #000;
-        }
-        .back {
-            border: 1px solid #ccc;
-        }
-        i {
-            color: #000;
-        }
-        .dot-menu {
-            border: 1px solid #ccc;
-        }
-
-    }
-    .dot-menu {
-        text-align: center;
-        width: 40px; height: 40px;
-        font-size: 26px;
-        position: absolute;
-        right: 5%; top: 10px;
-        border: 1px solid #fff;
-        i {
-            color: #fff;
-        }
-    }
+    
     .btn-quick {
         a {
             display: block;
@@ -210,7 +149,6 @@
                 padding-top: 20px;
             }
         }
->>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
     }
     .btn-quick {
         a {
@@ -235,7 +173,6 @@
 .line-1::after {
     content: '';width: 2px;height: 150px;background-color: rgba(255,255,255,0.4); position: absolute; left: -45%;top: 100%;
 }
-<<<<<<< HEAD
 .line-2::before { content: '';width: 500px;height: 2px;background-color: rgba(255,255,255,0.4); position: absolute; left: -25%;top: 170%; }
 .line-2::after {
     content: ''; width: 2px; height: 200px; background-color: rgba(255,255,255,0.4); position: absolute; left: 130%; top: -105%;
@@ -250,8 +187,6 @@
     position: absolute; left: 50%; top: 47%;
     transform: translate(-50%, -50%);
 }
-=======
->>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
 /* //네비 */
 .contents {
     margin-left: 20%;
@@ -406,7 +341,6 @@
             width: 33.3333%;
         }
     }
-<<<<<<< HEAD
 }
 /* //컨텐츠 */
 
@@ -501,6 +435,121 @@
         position: absolute; left: 50%; top: 50%;
         transform: translate(-50%, -50%);
     }
-=======
->>>>>>> 531eab92f6bc38538660814b566dffe08edd70b4
 }
+
+/* 율촌 재단 */
+#ybanner {
+    .ybanner {
+         position: relative;
+         width: 100%;
+         height: 700px;
+        background: url(../img/main_youlchon.png) no-repeat center center;
+        
+        .y-sbanner {
+            width: 100%;
+            h2 {
+                span {
+                 color: #fff;
+                 font-size: 64px;
+                 position: absolute; left: 50%; top: 40%;
+                 transform: translate(-50%,-50%);
+                }
+            }
+            p {
+                color: #fff;
+                 position: absolute; left: 50%; top: 60%;
+                 transform: translate(-50%,-50%);
+                font-size: 24px;
+                text-align: center;
+            }
+        }
+    }
+    .btn-quick {
+        a {
+            position: absolute; left: 50%; bottom: 27%;
+            z-index: 1000;
+            width: 50px; height: 50px;
+            margin-left: -25px;
+            background: #93c11f;
+            box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+            img {
+                width: 30px;
+                transform: rotate(-90deg);
+                padding-top: 20px;
+            }
+        }
+    }
+}
+.line-3::before {
+    content: '';width: 580px;height: 2px;background-color: rgba(255,255,255,0.4); position: absolute; left: -80%;top: 100%
+}
+.line-3::after {
+    content: '';width: 2px;height: 150px;background-color: rgba(255,255,255,0.4); position: absolute; left: -80%;top: 100%;
+}
+.line-4::before { content: '';width: 650px;height: 2px;background-color: rgba(255,255,255,0.4); position: absolute; left: -20%;top: 170%; }
+.line-4::after {
+    content: ''; width: 2px; height: 200px; background-color: rgba(255,255,255,0.4); position: absolute; left: 121%; top: -105%;
+}
+
+.edu {
+    margin-bottom: 45px;
+    .catergory-header {
+        .container {
+            display: flex;
+            justify-content: space-around;
+            .column {
+                margin-top: 100px;
+                margin-bottom: 40px;
+                .circle {
+                    padding-top: 51px;
+                    position: relative;
+                    font-size: 36px;
+                    &::before {
+                        position: absolute;
+                        left: 0; top: 0;
+                        content: '';
+                        width: 36px;
+                        height: 36px;
+                        background: #96c11f;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            .click {
+                padding: 10px 26px;
+                border: 1px solid #000;
+                border-radius: 999px;
+                span {
+                    
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .flex-wrap {
+        background: url(../img/youlchon09.png)repeat-y;
+        width: 100%;
+        height: 500px;
+        position: relative;
+        ul{
+            text-align: center;
+            padding-top: 235px;
+            li {
+                margin-left: 40px;
+                display: inline;
+                a {
+                min-width: 175px;
+                padding: 16px 10px 12px;
+                display: inline-block;
+                border-bottom: 2px solid #fff;
+                border-right: 2px solid #fff;
+                    text-align: left;
+                    font-size: 18px;
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+}
+/* //오버뷰 */

@@ -283,15 +283,16 @@
         }
     }
     @for $i from 1 through 30 {
-        .swiper-slide:nth-child(#{$i}) {  
-            .simg {background: url(../img/tbanner#{$i}.jpg) no-repeat center center; background-size: cover;}
+        .swiper-slide:nth-child(#{$i}) {
+           .simg {background: url(../img/tbanner#{$i}.jpg) no-repeat center center; background-size: cover;}
         }
-    } 
+    }
+ 
         
 }
 
 .story-btn {
-    margin-left: 840px;
+    margin-left: 44%;
     font-size: 18px;
     font-weight: bold;
     color: #ca0202;
@@ -360,7 +361,7 @@
         position: relative;
     }
     .world-btn {
-        margin-left: 800px;
+        margin-left: 42%;
         font-size: 18px;
         font-weight: bold;
         color: #ca0202;
@@ -420,7 +421,7 @@
         color : #777;
     }
     .brand-btn {
-        margin-left: 840px;
+        margin-left: 44%;
         font-size: 18px;
         font-weight: bold;
         color: #ca0202;
